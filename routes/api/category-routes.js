@@ -25,7 +25,7 @@ router.get('/', (req, res) => {
 router.get('/:id', (req, res) => {
   Category.findOne({
       where: {
-        id: res.parems.id
+        id: req.params.id
       },
       attributes: ['id', 'category_name'],
       include: [
