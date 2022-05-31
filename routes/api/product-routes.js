@@ -13,10 +13,11 @@ router.get('/', (req, res) => {
               model: Category,
               attributes: ['id', 'category_name']
           },
-         //{
-        //    model: Tag,
-        //    attributes: ['id', 'tag_name']
-        // }
+         {
+           model: Tag,
+           attributes: ['id', 'tag_name'],
+           through: ProductTag
+          }   
       ]
   }
   )
@@ -39,10 +40,11 @@ router.get('/:id', (req, res) => {
         model: Category,
         attributes: ['id', 'category_name']
     },
-   // {
-    //  model: Tag,
-    //  attributes: ['id', 'tag_name']
-   // }
+     {
+    model: Tag,
+    attributes: ['id', 'tag_name'],
+    through: ProductTag
+   }   
   ]
   })
   .then(dbProductData => {
@@ -139,7 +141,7 @@ router.delete('/:id', (req, res) => {
     }
   })
     .then(dbProductData => {
-      if (!dbProductDat) {
+      if (!dbProductData) {
         res.status(404).json({ message: 'No product found with this id' });
         return;
       }
