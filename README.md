@@ -7,7 +7,7 @@ The back end of an e-commerce website. Take a working Express.js API and configu
 ## App Demo
 
 Create the schema and seed the databases
-![gif](https://github.com/lizditullio/e-commerce-back-end/blob/main/src/video-1.mp4)
+![video1](https://github.com/lizditullio/e-commerce-back-end/blob/main/src/video-1.mp4)
 
 
   ## Table of Contents
