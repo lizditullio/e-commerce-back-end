@@ -4,6 +4,11 @@
 # Description
 The back end of an e-commerce website. Take a working Express.js API and configure it to use Sequelize to interact with a MySQL database.
 
+## App Demo
+
+Create the schema and seed the databases
+https://github.com/lizditullio/e-commerce-back-end/blob/main/src/video-1.mp4
+
 
   ## Table of Contents
   - [Description](#description)
