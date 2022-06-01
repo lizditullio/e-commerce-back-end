@@ -40,7 +40,6 @@ https://user-images.githubusercontent.com/100237983/171307064-2564ec40-183c-41b8
   - [Description](#description)
   - [Installation](#installation)
   - [Contributing](#contributing)
-  - [Usage](#usage)
   - [Questions](#questions)
 
   ## Installation
