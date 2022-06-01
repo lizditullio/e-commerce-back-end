@@ -7,7 +7,7 @@ The back end of an e-commerce website. Take a working Express.js API and configu
 ## App Demo
 
 Create the schema and seed the databases
-![](https://watch.screencastify.com/v/v8nqpZJnwIJM69sYlFSb)
+https://watch.screencastify.com/v/v8nqpZJnwIJM69sYlFSb
 
 GET routes to return all categories, all products
 ![](https://watch.screencastify.com/v/qcZc1GU533ejEPPeARBs)
