@@ -7,8 +7,21 @@ The back end of an e-commerce website. Take a working Express.js API and configu
 ## App Demo
 
 Create the schema and seed the databases
-![video1](https://github.com/lizditullio/e-commerce-back-end/blob/main/src/video-1.mp4)
+https://watch.screencastify.com/v/v8nqpZJnwIJM69sYlFSb
 
+GET routes to return all categories, all products
+https://watch.screencastify.com/v/qcZc1GU533ejEPPeARBs
+
+GET routes to return a single category, a single product, and a single tag
+
+POST routes to return all categories, all products
+https://watch.screencastify.com/v/r2T3iROD067LuEHC8Bsb
+
+PUT routes to return all categories, all products
+https://watch.screencastify.com/v/q0y5v5MM6m8Ab9AtHysg
+
+DELETE routes to return all categories, all products
+https://watch.screencastify.com/v/Ixg42f86motxpAP2HBFN
 
   ## Table of Contents
   - [Description](#description)
