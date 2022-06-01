@@ -1,11 +1,8 @@
 # e-commerce-back-end
 
-# README Generator
-  
 
 # Description
-The back end of an e-commerce website.
-
+The back end of an e-commerce website. Take a working Express.js API and configure it to use Sequelize to interact with a MySQL database.
 
 
   ## Table of Contents
